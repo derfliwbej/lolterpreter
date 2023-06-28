@@ -1,0 +1,8 @@
+HAI
+    I HAS A x ITZ 512
+    I HAS A y ITZ MAEK x A YARN
+    I HAS A z ITZ MAEK x A NUMBAR
+
+    VISIBLE z
+    VISIBLE y
+KTHXBYE

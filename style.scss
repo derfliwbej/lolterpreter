@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: white;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #242526;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    
+    .three-container {
+        display: flex;
+        gap: 10px;
+
+        .text-editor, .lexeme-table, .symbol-table {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 450px;
+            overflow-y: scroll;
+        }
+
+        .text-editor {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .text-editor textarea {
+            width: 100%;
+            resize: none;
+            height: 450px;
+            background-color: #3e4042;
+            color: white;
+            outline: none;
+        }
+    }
+
+    .execute-button-container {
+        padding: 1rem;
+        display: flex;
+        justify-content: center;
+
+        button {
+            width: 35%;
+            background-color: #358ac4;
+            border: none;
+            border-radius: 20px;
+            padding: 0.75rem;
+            font-weight: bold;
+            font-size: 1rem;
+        }  
+    }
+
+    .console-output {
+        height: 100%;
+        background-color: white;
+        overflow-y: scroll;
+
+        p {
+            color: black;
+        }
+    }
+}
+
+th, td {
+    border: 1px solid #242526;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    background-color: #3e4042;
+}
+
+th {
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+}

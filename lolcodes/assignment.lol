@@ -1,0 +1,6 @@
+HAI
+    I HAS A x ITZ 2
+    VISIBLE x
+    x R 4
+    VISIBLE x
+KTHXBYE
